@@ -1,0 +1,50 @@
+1. Precipitation
+    - Description: Amount of precipitation (rainfall or equivalent) measured at the location.
+    - Type: Continuous (float64).
+    - Units: Likely millimeters (mm) or equivalent.
+    - Purpose: A critical feature for environmental and climate modeling.
+
+2. LST (Land Surface Temperature)
+    - Description: Measured temperature of the Earth's surface at the location.
+    - Type: Continuous (float64).
+    - Units: Likely degrees Celsius or Kelvin.
+    - Purpose: Used in studies of heat distribution, climate, or agriculture.
+
+3. AAI (Absorbing Aerosol Index)
+    - Description: Indicates the presence of aerosols (e.g., dust, smoke) in the atmosphere.
+    - Type: Continuous (float64).
+    - Range: Positive values indicate absorbing aerosols; negative or near-zero values may indicate clear conditions.
+    - Purpose: Relevant for air quality analysis and environmental studies.
+
+4. CloudFraction
+    - Description: Fractional coverage of clouds in the observed area.
+    - Type: Continuous (float64).
+    - Range: 0 (clear) to 1 (completely overcast).
+    - Purpose: Used in weather and climate modeling.
+
+5. NO2_strat (Stratospheric NO₂)
+    - Description: Concentration of nitrogen dioxide in the stratosphere.
+    - Type: Continuous (float64).
+    - Units: Likely micrograms per cubic meter (µg/m³).
+    - Purpose: Provides insights into atmospheric chemistry and pollution sources.
+
+6. NO2_total (Total NO₂)
+    - Description: Total nitrogen dioxide concentration in the atmosphere.
+    - Type: Continuous (float64).
+    - Purpose: Useful for assessing air pollution levels.
+
+7. NO2_trop (Tropospheric NO₂)
+    - Description: Concentration of nitrogen dioxide in the troposphere.
+    - Type: Continuous (float64).
+    - Purpose: Indicates near-surface pollution and human activity impact.
+
+8. TropopausePressure
+    - Description: Pressure at the tropopause (the boundary between the troposphere and stratosphere).
+    - Type: Continuous (float64).
+    - Units: Likely hectopascals (hPa).
+    - Purpose: Provides insights into atmospheric dynamics and weather.
+
+9. GT_NO2 (Ground Truth NO₂)
+    - Description: Ground-level concentration of nitrogen dioxide.
+    - Type: Continuous (float64).
+    - Purpose: Used as a benchmark or target value for validation and modeling.
